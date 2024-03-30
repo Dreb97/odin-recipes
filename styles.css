@@ -2,23 +2,44 @@
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f8f8;
+    color: #333;
     margin: 0;
     padding: 0;
-}
-
-h1{
+    line-height: 1.6;
+    box-sizing: border-box;
     text-align: center;
-    color: #333;
-    margin-top: 50px;
 }
 
-h2,
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto;
+    color: #ff5733; /* Naranja */
+    padding: 15px;
+}
+
+h2 {
+    color: #009688; /* Verde turquesa */
+    padding: 15px;
+}
+
 h3 {
-    color: #ff5733;
-    font-weight: bold;
-    text-align: center;
+    color: #4caf50; /* Verde */
+    padding: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    width: 700px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 img {
@@ -26,29 +47,36 @@ img {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+}
+
+
+ul, ol {
+    width: 700px;
+    margin: 0 auto;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+}
+
+
+.main-ul {
+    list-style-type: none;
+    height: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 a {
+    color: #ff5733; /* Naranja */
     text-decoration: none;
-    color: #ff5733; /* Color llamativo */
-    font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ff8c33; /* Cambio de color al pasar el ratón */
+    color: #ff8c33; /* Naranja claro */
 }
-
-
